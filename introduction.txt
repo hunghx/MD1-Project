@@ -1,0 +1,17 @@
+﻿Project MD1
+- Yêu cầu về giao diện :
+* cho người dùng
+	+ có trang chủ 
+	+ có trang sản phẩm ( có thể tích hợp vào trang chủ)
+	+ trang chi tiết sản phẩm
+	+ trang giỏ hàng 
+	+ trang đăng nhập, đăng kí
+* cho quản trị viên (logic 100%) create, update, read, delete, search ,sort ,...
+	+ trang quản lí danh mục (Bước 1)
+	+ quản lí sản phẩm
+	+ quản lí người dùng
+	+ quản lí đơn hàng
+- Yêu cầu về chức năng:
+	+ Đăng nhập đăng kí
+	+ Quản trị danh mục, sản phẩm , người dùng(CRUD)
+	+ giỏ hàng
