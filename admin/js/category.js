@@ -64,7 +64,7 @@ function show(list) {
       <td>${i + 1}</td>
       <td>${list[i].name}</td>
       <td>
-      ${list[i].description}
+      <img width="50" src="${list[i].description}" alt="#"/>
       </td>
       <td>${list[i].createdDate}</td>
       <td>
