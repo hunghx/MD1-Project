@@ -1,0 +1,24 @@
+.form-login {
+  width: 500px;
+  background-color: #0f172a7c;
+  color: #f1f1f1;
+  border-radius: 15px;
+}
+.container-fluid {
+  background: no-repeat
+    url("https://tse4.mm.bing.net/th?id=OIP.lOR0bSBBdfVURQzg8xAXGwHaEk&pid=Api&P=0");
+  background-size: cover;
+  background-position: center;
+  /* background-image: linear-gradient(
+      rgba(255, 255, 255, 0.251),
+      rgb(47, 42, 42, 0.4)
+    ); */
+  height: 100vh;
+}
+.form-control {
+  background-color: transparent;
+}
+.input-group {
+  border-radius: 5px;
+  /* border-style: dotted !important; */
+}

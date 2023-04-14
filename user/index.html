@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H shop</title>
+</head>
+
+<body>
+    <div id="main"></div>
+    <script>
+        let user = JSON.parse(localStorage.getItem("user-login"));
+        if (user) {
+            document.getElementById("main").innerHTML = `CHào mừng ${user.username} đến trang web <a onclick="logout()">log out</a>`;
+        } else {
+            document.getElementById("main").innerHTML = `
+        <a href="../admin/register.html">register</a>/
+        <a href="../admin/login.html">login</a>
+   `
+        }
+        function logout() {
+            localStorage.removeItem("user-login");
+            location.reload();
+        }
+    </script>
+</body>
+
+</html>
